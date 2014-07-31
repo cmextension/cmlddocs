@@ -6,12 +6,22 @@
 Welcome to CM Live Deal's documentation!
 ========================================
 
-Contents:
+This documentation gives you instruction how to install and setup CM Live Deal on your Joomla! website.
 
 .. toctree::
    :maxdepth: 2
 
-
+   pages/overview
+   pages/installation
+   pages/configuration
+   pages/coupontemplate
+   pages/categories
+   pages/cities
+   pages/merchants
+   pages/deals
+   pages/coupons
+   pages/images
+   pages/userstats
 
 Indices and tables
 ==================

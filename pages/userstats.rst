@@ -39,6 +39,6 @@ Switch to "Merchant" tab and set "Display user's stats" and "Display user's stat
 
 .. image:: ../images/userstats_form.jpg
 
-In your Joomla! front-end, go to the menu item of Customer view, you can see that the statistics are displayed in the coupon list, the descriptions for these statistics are also displayed to help merchants understand.
+In your Joomla! front-end, go to the menu item of Customers view, you can see that the statistics are displayed in the coupon list, the descriptions for these statistics are also displayed to help merchants understand.
 
 .. image:: ../images/userstats_list.jpg

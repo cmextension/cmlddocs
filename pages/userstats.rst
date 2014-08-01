@@ -29,11 +29,9 @@ To enable the statistics, in your Joomla! back-end you go to Components -> CM Li
 
 .. image:: ../images/com_cmlivedeal_menu.jpg
 
-On the toolbar, you click "Coupon template".
+On the toolbar there is a button "Options", you click this button to configure the component.
 
 .. image:: ../images/com_cmlivedeal_dashboard.jpg
-
-On the toolbar there is a button "Options", you click this button to configure the component.
 
 Switch to "Merchant" tab and set "Display user's stats" and "Display user's stats" options to "Yes".
 

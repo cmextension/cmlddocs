@@ -22,6 +22,7 @@ This documentation gives you instruction how to install and setup CM Live Deal o
    pages/coupons
    pages/images
    pages/userstats
+   pages/searchdeals
 
 Indices and tables
 ==================

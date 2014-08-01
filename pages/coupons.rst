@@ -22,6 +22,8 @@ You can create a menu item for "User's Coupons" to let users access their coupon
 
 .. image:: ../images/deal_frontend_menu.jpg
 
+To have a user friendly URL for coupon page. You need to have a menu item for "Coupon download" view. This menu item should be used as a hidden menu item, it is not visible in your front-end. To do this you create a new menu, create a new menu item for "Coupon download" page in this new menu, as long as you don't assign this new menu to a menu module and display the module in your front-end, "Coupon download" menu item is not displayed in your front-end.
+
 Administratiors manage coupons
 ------------------------------
 

@@ -23,11 +23,4 @@ This documentation gives you instruction how to install and setup CM Live Deal o
    pages/images
    pages/userstats
    pages/searchdeals
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   pages/translation

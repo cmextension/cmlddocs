@@ -106,6 +106,7 @@ Deal
 .. image:: ../images/com_cmlivedeal_deal.jpg
 
 * **New deal notification**: Send email to administrators when there is a new deal submitted.
+* **Geolocation service**: The service you use to detect user's location.
 * **Search radius from user's location**: The radius in kilometer to search for nearby deals of user. Default is 5 kilometers. This value is used when user searches for deals in his/her location by using the search module.
 * **Location cookie's lifetime**: Detect user's location requires reading the database file and make the server slow. User's location can be stored in cookie and reused later to reduce the file reads from server. With this option you can set how many days this cookie is available. Default value is 7 (days). You can disable storing cookie by using 0 value. You can view :ref:`ref-search` for more information.
 

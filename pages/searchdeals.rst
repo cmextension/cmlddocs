@@ -8,7 +8,9 @@ By using CM Live Deal Search module, user can search for deals in all cities, in
 
 You can check :ref:`ref-mod_cmlivedeal_search` section to know how to setup the search  module.
 
-To detect user's location, CM Live Deal uses GeoLite2 data created by MaxMind, available from `http://www.maxmind.com <http://www.maxmind.com>`_.
+To detect user's location, You can use GeoLite2 data created by MaxMind, available from `http://www.maxmind.com <http://www.maxmind.com>`_, or use HTML5 Geolocation service.
+
+MaxMind service works on server side so it works in all browsers. HTML5 Geolocation works on client side, and not all browsers support HTML5 Geolocation, so dectecting user's location is not possible if user's browsrs is not supported.
 
 Get GeoLite2 City database
 --------------------------
@@ -32,10 +34,11 @@ On the toolbar, you click "Options" button.
 
 .. image:: ../images/com_cmlivedeal_dashboard.jpg
 
-Go to "Deal" tab and set the radius (in kilometer) to search for nearby deals from user's location and the cookie lifetime.
+Go to "Deal" tab, you select the Geolocatin service, set the radius (in kilometer) to search for nearby deals from user's location and set the cookie lifetime.
 
 .. image:: ../images/com_cmlivedeal_deal.jpg
 
+* **Geolocation service**: The service you use to detect user's location.
 * **Search radius from user's location**: The radius in kilometer to search for nearby deals of user. Default is 5 kilometers. This value is used when user searches for deals in his/her location by using the search module.
 * **Location cookie's lifetime**: Detect user's location requires reading the database file and make the server slow. User's location can be stored in cookie and reused later to reduce file reads from server. With this option you can set how many days this cookie is available. Default value is 7 (days). You can disable storing cookie by using 0 value.
 

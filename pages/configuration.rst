@@ -82,6 +82,9 @@ Layout
 * **Map's default location**: The default location of Google Maps when the map is displayed, used in both front-end and back-end. You can click on the map or move the marker to the location you want.
 * **Date format**: Date format that is used in front-end.
 * **Time format**: Time format that is used in front-end.
+* **Default pagination limit**: The quantity of deals that are displayed in deal list by default.
+* **Show pagination limit option**: Show an option to select the quantity of deals that are displayed in 1 page in deal list.
+* **Show pagination sorting option**: Show an option to select how deals in deal list are sorted.
 
 Merchant
 ^^^^^^^^
@@ -99,6 +102,8 @@ Merchant
 * **Image folder**: Folder where the images that are uploaded by merchants are stored. You can only select the folders which are in the image folder that you set in Media Manager component. You can select the folder that you create in Media Manager in the above step of Media Manager.
 * **Display user's stats**: Display coupon owner's statistics in merchant's coupon list. This info lets merchant know if coupon owner is a serious customer.
 * **Display user's visits**: Display coupon owner's visits to merchant's. This info lets merchant know if coupon owner is a returned customer.
+* **Membership component integration**: To enable membership integration, select a membership Joomla! component to integrate with. Membership Plans menu item will be available in the component's menu for you to create and configure your membership plans.
+* **Membership upgrade form**: The menu item for upgrading membership. The link to this menu item is displayed in merchant's deal management page when merchant reaches his/her limit of created deal quantity. This option is only used if membership integration is enabled.
 
 Deal
 ^^^^

@@ -59,7 +59,7 @@ In your front-end, login as a merchant and access the new menu item, you can see
 
 .. image:: ../images/deal_frontend_merchant_list.jpg
 
-The list has 6 columns:
+The list has 8 columns:
 
 * **Title**: Displays deal name and the name of the category which the deal is in.
 * **Impressions**: How many times the deal is showed in deal list to users.
@@ -67,8 +67,10 @@ The list has 6 columns:
 * **Captured**: How many coupons of the deal that users have captured.
 * **Redeemed**: The number of redeemed coupons of the deal.
 * **Approved**: The deal is approved by administrators or is still in review.
+* **Published**: The deal is published.
+* **Ending time**: When the deal expires.
 
-Click on deal name to edit the deal. If deal is already approved, merchant can only change starting and ending dates. If the deal is not approved yet, merchant still can modify the deal's details.
+Click on deal name to edit the deal. If deal is already approved, merchant can only change starting date, ending date and published status. If the deal is not approved yet, merchant still can modify the deal's details.
 
 Submit new deal
 ^^^^^^^^^^^^^^^
@@ -84,6 +86,7 @@ The form has the following fields:
 * **Fine print**: The deal's terms and conditions.
 * **Starting time**: When the deal starts public to users.
 * **Ending time**: When the deal expires and is not visible to users any more.
+* **Published**: Deal's published status.
 
 .. image:: ../images/deal_frontend_form.jpg
 

@@ -28,6 +28,7 @@ For merchants:
 * Know if user is a trusted customer (user will come to redeem coupon).
 * Know if user is a return customer.
 * Upload photos of their stores, products,... to promote for their businesses.
+* Integrate with membership component, currently only support Membership Pro. Limit how many deals merchant can create, how many days merchant's deals are available on the site.
 
 For users:
 
@@ -37,6 +38,7 @@ For users:
 * Do not need to pay to get coupon, only need to pay directly to merchant, no more asking website owner for refund.
 * Do not need to wait until deal reaches its minimum claim/purchase quantity like traditional "groupon" sites.
 * No daily mail: Users are not bothered by marketing emails every day, they only find deals when they need and come to merchants to redeem instantly.
+* Share deals to Facebook, Twitter, Pinterest and Google+.
 
 For site owners:
 

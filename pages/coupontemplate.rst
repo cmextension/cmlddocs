@@ -18,7 +18,8 @@ In the form, you can use HTML and CSS to design your coupon.
 
 To display the information of deal on your coupon, you can use the following tags (shortcodes):
 
-* **{code}**: Coupon code.
+* **{code}**: Coupon's code.
+* **{qrcode}**: Coupon's QR code.
 * **{deal}**: Deal's name.
 * **{description}**: Deal's description.
 * **{terms}**: Deal's fine print.

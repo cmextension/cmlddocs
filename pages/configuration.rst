@@ -114,6 +114,8 @@ Deal
 * **Geolocation service**: The service you use to detect user's location.
 * **Search radius from user's location**: The radius in kilometer to search for nearby deals of user. Default is 5 kilometers. This value is used when user searches for deals in his/her location by using the search module.
 * **Location cookie's lifetime**: Detect user's location requires reading the database file and make the server slow. User's location can be stored in cookie and reused later to reduce the file reads from server. With this option you can set how many days this cookie is available. Default value is 7 (days). You can disable storing cookie by using 0 value. You can view :ref:`ref-search` for more information.
+* **Display merchant's photos**: Display the slideshow for merchant's photos in deal's popup.
+* **Auto approve new deals**: If enabled, new deals that are submitted by merchants are approved and published by default. Enable this option if you don't want to manually check and approve/publish every submitted deal.
 
 Coupon
 ^^^^^^
@@ -126,6 +128,8 @@ Coupon
   * *Latin alphabetic characters only (from A to Z)*: for example, "GWLCA".
   * *Latin numeric characters only (from 0 to 9)*: for example, "83061".
   * *Latin alphabetic and numeric*: for example, "F52H2".
+
+* **QR code's size**: The size of coupon's QR code in pixel.
 
 Permissions
 ^^^^^^^^^^^

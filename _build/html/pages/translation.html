@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Translation &mdash; CM Live Deal 1.0.0-beta documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0-beta',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="CM Live Deal 1.0.0-beta documentation" href="../index.html" />
+    <link rel="prev" title="Search for nearby deals" href="searchdeals.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="searchdeals.html" title="Search for nearby deals"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../index.html">CM Live Deal 1.0.0-beta documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="translation">
+<h1>Translation<a class="headerlink" href="#translation" title="Permalink to this headline">¶</a></h1>
+<p>CM Live Deal only comes with English by default however you can always translate CM Live Deal to other languages.</p>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>Before translating CM Live Deal to another language, you need to know install that new language.</p>
+<p>In your Joomla! back-end, you go to Extensions -&gt; Language Manager.</p>
+<img alt="../_images/installation_menu.jpg" src="../_images/installation_menu.jpg" />
+<p>You can see the list of installed languages on your site. Click &#8220;Install Language&#8221; button on the toolbar to install a new language.</p>
+<img alt="../_images/translation_list.jpg" src="../_images/translation_list.jpg" />
+<p>Search for the language you want to install, select it in the list and click &#8220;Install&#8221; button.</p>
+<img alt="../_images/translation_search.jpg" src="../_images/translation_search.jpg" />
+<p>After installing new language, go back to the installed language list, you can see your new language in the list.</p>
+<img alt="../_images/translation_list_2.jpg" src="../_images/translation_list_2.jpg" />
+<p>You need to remember the language tag of your new language. In the above screenshot, French language package is installed, and &#8220;fr-FR&#8221; is the language tag of French.</p>
+</div>
+<div class="section" id="preparation">
+<h2>Preparation<a class="headerlink" href="#preparation" title="Permalink to this headline">¶</a></h2>
+<p>You can use your favorite FTP software or file managers available in your hosting control panel to navigate to &lt;Joomla! root folder&gt;/components/com_cmlivedeal/language/ folder. In this folder you can see the folder &#8220;en-GB&#8221;, this is where the language files of English are stored.</p>
+<p>In this &#8220;language&#8221; folder, you create a new folder for your new language, the name of the folder is the language tag. Follow the above example, you create a new folder &#8220;fr-FR&#8221;.</p>
+<p>Go to &#8220;en-GB&#8221; folder, copy &#8220;en-GB.com_cmlivedeal.ini&#8221; file in this folder to the new language folder that you just create (&#8220;fr-FR&#8221; as in the example).</p>
+<p>In the new language folder folder, rename &#8220;en-GB.com_cmlivedeal.ini&#8221; to &#8220;xx-YY.com_cmlivedeal.ini&#8221;, &#8220;xx-YY&#8221; is the language tag of your new language, eg &#8220;fr-FR&#8221;.</p>
+</div>
+<div class="section" id="translate">
+<h2>Translate<a class="headerlink" href="#translate" title="Permalink to this headline">¶</a></h2>
+<p>Open &#8220;xx-YY.com_cmlivedeal.ini&#8221; with a text editor and translate the English strings in this file to your new language.</p>
+<p><em>Important note</em>: Joomla! language INI files must be saved as UTF-8 without the Byte Order Mark (BOM). For more information on Byte Order Mark see <a class="reference external" href="http://unicode.org/faq/utf_bom.html#BOM">http://unicode.org/faq/utf_bom.html#BOM</a></p>
+<p>The above instruction is for translating the front-end of CM Live Deal component. To translate the back-end and other extensions, you need to repeat the above steps for the following folders:</p>
+<ul class="simple">
+<li><strong>CM Live Deal component&#8217;s back-end</strong>: &lt;Joomla! root folder&gt;/administrator/components/com_cmlivedeal/language/</li>
+<li><strong>CMLD Merchant plugin</strong>: &lt;Joomla! root folder&gt;/modules/mod_cmlivedeal_search/language/</li>
+<li><strong>CM Live Deal Search module</strong>: &lt;Joomla! root folder&gt;/plugins/user/cmldmerchant/language/</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Translation</a><ul>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#preparation">Preparation</a></li>
+<li><a class="reference internal" href="#translate">Translate</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="searchdeals.html"
+                        title="previous chapter">Search for nearby deals</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/pages/translation.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="searchdeals.html" title="Search for nearby deals"
+             >previous</a> |</li>
+        <li><a href="../index.html">CM Live Deal 1.0.0-beta documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, CMExtension.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>

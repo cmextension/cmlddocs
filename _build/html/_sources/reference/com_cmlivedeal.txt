@@ -1,0 +1,80 @@
+================================
+CM Live Deal component
+================================
+
+Configuration
+-------------
+
+In your back-end, go to Components -> CM Live Deal to access CM Live Deal component. The dashboard is displayed by default.
+
+.. image:: ../images/com_cmlivedeal_configuration.jpg
+
+On the toolbar there is a button "Options", you click this button to configure the component.
+
+On the configuration page, the settings are grouped into 5 tabs: Layout, Merchant, Deal, Coupon and Permissions.
+
+Layout
+^^^^^^
+
+.. image:: ../images/com_cmlivedeal_layout.jpg
+
+* **Image's width (management)**: Image thumbnail's width (pixel) in deal list table (in back-end and in merchant's management area in front-end). Default value is 50px.
+* **Map's height**: The height of Google's maps, used in both front-end and back-end. Default value is 400px.
+* **Map's zoom level**: Default Google Maps's zoom level. Default value is 15.
+* **Map's default location**: The default location of Google Maps when the map is displayed, used in both front-end and back-end. You can click on the map or move the marker to the location you want.
+* **Date format**: Date format that is used in front-end.
+* **Time format**: Time format that is used in front-end.
+
+Merchant
+^^^^^^^^
+
+.. image:: ../images/com_cmlivedeal_merchant.jpg
+
+
+* **Merchant's user group**: Joomla! user group that merchant are assigned to. Only users in the selected group can submit new deal and edit merchant's profile.
+* **Add merchant to group**: Options for adding merchant to merchant's Joomla! user group after registration.
+
+  * *Add automatically after registration*: After user registers for a merchant account, user is added to the merchant group automatically.
+  * *Add manually by administrators*: After user registers for a merchant account, user is not added to the merchant group. Administrator needs to review user's registration and add user to the group manually.
+
+* **Block merchant**: After user registers for a merchant account, user's Joomla! account is blocked and user can not login, administrator needs to unblock the account after reviewing the registration.
+* **New merchant notification**: Send email to administrators when there is a new merchant registration.
+* **Image folder**: Folder where the images that are uploaded by merchants are stored. You can only select the folders which are in the image folder that you set in Media Manager component.
+* **Display user's stats**: Display coupon owner's statistics in merchant's coupon list. This info lets merchant know if coupon owner is a serious customer.
+* **Display user's visits**: Display coupon owner's visits to merchant's. This info lets merchant know if coupon owner is a returned customer.
+
+Deal
+^^^^
+
+.. image:: ../images/com_cmlivedeal_deal.jpg
+
+* **New deal notification**: Send email to administrators when there is a new deal submitted.
+
+Coupon
+^^^^^^
+
+.. image:: ../images/com_cmlivedeal_coupon.jpg
+
+* **Coupon code's length**: The number of characters in a coupon code. Default value is 5.
+* **Coupon's characters**: The character's types in coupon code. Default is alphanumeric. Coupon code's characters are always uppercase.
+
+  * *Latin alphabetic characters only (from A to Z)*: for example, "GWLCA".
+  * *Latin numeric characters only (from 0 to 9)*: for example, "83061".
+  * *Latin alphabetic and numeric*: for example, "F52H2".
+
+Permissions
+^^^^^^^^^^^
+
+.. image:: ../images/com_cmlivedeal_permissions.jpg
+
+On the left side there are tabs for user groups. On the right side, we have the options of the permissions that the users in the selected group can do.
+
+You select your merchant group and configure the following permissions:
+
+* **Configure**: Not Allowed
+* **Access Administration Interface**: Not Allowed
+* **Create**: Allowed
+* **Delete**: Allowed
+* **Edit**: Not Allowed
+* **Edit State**: Allowed
+* **Edit Own**: Allowed

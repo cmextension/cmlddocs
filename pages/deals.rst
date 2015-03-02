@@ -25,9 +25,19 @@ You need to enter your deal's details: name, description, fine print, starting d
 
 To assign an image to your deal, you click "Select" button to open image popup. Before selecting/uploading a new image, you must select a merchant first, this merchant will be the owner of any image you upload while you are creating/modifying the deal, unless you select a different merchant. You can only assign 1 image to a deal.
 
+If you enable "Prices and discount input" option in the component's configuration, "Discount info" is displayed in the form, there are 3 types of discount info available:
+
+* Original price and discounted price. For example: original price was $50 but now discounted price is $30.
+* Fixed discount value. For example: $10 discount for orders over $50.
+* Fixed discount percent. For example: 10% discount for orders over $50.
+
+If deal has a discount method which is not fit to these 3 discount types, you can select "None" option. Original price, discounted price can be displayed in deal list and deal popup. Fixed discount value and fixed discount percent can be dispayed in deal list.
+
 If you want to publish the deal, you need to set "Status" to "Published" and "Approval" to "Yes". However the deal is visible to users or not also depends on starting and ending time.
 
 "Approval" is for marking that if administrator has already reviewed and approved the deal which is submitted by merchant in front-end. When deal is approved, merchant can't change deal details any more, he/she only can modify starting and ending date.
+
+If you enable "Limit coupon quantity" in the component's configuration, "Coupon quantity" field is displayed in the form. You can enter the quantity of coupons that you allow customers to capture, if you want unlimited quantity, you can enter 0.
 
 Other fields in the form:
 
@@ -82,8 +92,15 @@ The form has the following fields:
 * **Title**: The deal's name.
 * **Category**: The category which the deal is in.
 * **Image**: Merchant can click "Select" button to open a popup and select an uploaded image, merchant can also upload a new image.
+* **Discount info**: Similar to the deal submission form in back-end, this option provides 3 types of discount, if the deal has a different discount info you can select "None" option. This field only appear if "Prices and discount input" option is enabled in the component's configuration
+
+  * Original price and discounted price. For example: original price was $50 but now discounted price is $30.
+  * Fixed discount value. For example: $10 discount for orders over $50.
+  * Fixed discount percent. For example: 10% discount for orders over $50.
+
 * **Description**: The deal's description.
 * **Fine print**: The deal's terms and conditions.
+* **Coupon quantity**: This field is only visible if "Limit coupon quantity" in the component's configuration is enabled. You can enter the quantity of how many coupon you want customers to get, if you want unlimited quantity you can enter "0".
 * **Starting time**: When the deal starts public to users.
 * **Ending time**: When the deal expires and is not visible to users any more.
 * **Published**: Deal's published status.

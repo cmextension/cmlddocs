@@ -69,7 +69,7 @@ The dashboard is displayed by default.
 
 On the toolbar there is a button "Options", you click this button to configure the component.
 
-On the configuration page, the settings are grouped into 5 tabs: Layout, Merchant, Deal, Coupon and Permissions.
+On the configuration page, the settings are grouped into 7 tabs: Layout, Deal list, Currency Merchant, Deal, Coupon and Permissions.
 
 Layout
 ^^^^^^
@@ -82,9 +82,31 @@ Layout
 * **Map's default location**: The default location of Google Maps when the map is displayed, used in both front-end and back-end. You can click on the map or move the marker to the location you want.
 * **Date format**: Date format that is used in front-end.
 * **Time format**: Time format that is used in front-end.
+
+Deal list
+^^^^^^^^^
+
+.. image:: ../images/com_cmlivedeal_deal_list.jpg
+
 * **Default pagination limit**: The quantity of deals that are displayed in deal list by default.
 * **Show pagination limit option**: Show an option to select the quantity of deals that are displayed in 1 page in deal list.
 * **Show pagination sorting option**: Show an option to select how deals in deal list are sorted.
+* **Show price tag**: Show price tag at the top left corner of every deal in deal list. This price tag contains discounted price, discounted value or discount percent.
+* **Show original and discounted prices**: Show original price and discounted price of deal of it has these prices.
+* **Price tag of deals which have discounted price**: If deal has original price and discounted price, you show discounted price or discount value (how much customers save). For example, if orginal price is $100, discounted price is $40, you can show $40 (discounted price) or $60 (discount value).
+* **Thumbnail width**: The width of deal image in deal list calculated by Bootsrap framework's 12 grid column. You can select one of the 3 options and refresh your front-end deal list until it looks good for you.
+
+Currency
+^^^^^^^^
+
+.. image:: ../images/com_cmlivedeal_currency.jpg
+
+* **Currency symbol**: Currency symbol which is used for original price, discounted price and discounted value.
+* **Currency symbol's position**: Where currency symbol is displayed, before or after amount.
+* **Currency decimals**: The number of decimals in currency.
+* **Decimal point**: The character which is used as decimal point.
+* **Thousands separator**: The character which is used as thousands separator.
+
 
 Merchant
 ^^^^^^^^
@@ -104,6 +126,7 @@ Merchant
 * **Display user's visits**: Display coupon owner's visits to merchant's. This info lets merchant know if coupon owner is a returned customer.
 * **Membership component integration**: To enable membership integration, select a membership Joomla! component to integrate with. Membership Plans menu item will be available in the component's menu for you to create and configure your membership plans.
 * **Membership upgrade form**: The menu item for upgrading membership. The link to this menu item is displayed in merchant's deal management page when merchant reaches his/her limit of created deal quantity. This option is only used if membership integration is enabled.
+* **New coupon notification**: Send email to merchant when there is new coupon captured.
 
 Deal
 ^^^^
@@ -116,6 +139,8 @@ Deal
 * **Location cookie's lifetime**: Detect user's location requires reading the database file and make the server slow. User's location can be stored in cookie and reused later to reduce the file reads from server. With this option you can set how many days this cookie is available. Default value is 7 (days). You can disable storing cookie by using 0 value. You can view :ref:`ref-search` for more information.
 * **Display merchant's photos**: Display the slideshow for merchant's photos in deal's popup.
 * **Auto approve new deals**: If enabled, new deals that are submitted by merchants are approved and published by default. Enable this option if you don't want to manually check and approve/publish every submitted deal.
+* **Merchant can edit published deals**: Allow merchants to edit their own deals after the deals are published and visible to customers.
+* **Prices and discount input**: Enable options for original price, discounted price and fixed discount values of the deal in deal submission form.
 
 Coupon
 ^^^^^^
@@ -130,6 +155,8 @@ Coupon
   * *Latin alphabetic and numeric*: for example, "F52H2".
 
 * **QR code's size**: The size of coupon's QR code in pixel.
+* **Guest can get coupon**: Allow guests can capture coupons without registering accounts.
+* **Limit coupon quantity**: Enable this option to give administrators and merchants ability to set and change coupon quantity for every deal. If this option is disabled, coupon quantity is unlimited.
 
 Permissions
 ^^^^^^^^^^^

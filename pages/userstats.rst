@@ -16,6 +16,7 @@ If (2) value is equal to (1) value, this means the user always comes to redeem t
 
 If (1) value is much greater than (2) value, the merchant shouldn't expect that the user will come to the merchant to redeem the current coupon.
 
+Captured and Redeemed values are not available if the owner of the coupon is a guest.
 
 User visits
 -----------

@@ -34,6 +34,7 @@ For users:
 
 * Search for deals by keyword, category and city.
 * Get coupon just in few clicks.
+* Ability to get coupon without registration.
 * Manage claimed/captured coupons.
 * Do not need to pay to get coupon, only need to pay directly to merchant, no more asking website owner for refund.
 * Do not need to wait until deal reaches its minimum claim/purchase quantity like traditional "groupon" sites.
@@ -47,5 +48,6 @@ For site owners:
 * Easy to manage the uploaded photos of merchants.
 * Get coordinates by location address or by clicking and moving marker on Google Maps, no need for copy-paste coordinates from Google Maps website.
 * Manually create new coupon.
+* Provide coupons in HTML or PDF format (mPDF PHP library is required).
 * Integration with Jooma!'s Group: charging merchants for subscription/membership for posting deals on website by integrating with third party extensions of Joomla! (eg. Akeeba Subscription or PayPlans).
 * Responsive website: with the power of Bootstrap, website is responsive and nicely displayed on mobile devices, saving the cost for developing and maintaining iOS and Android applications.

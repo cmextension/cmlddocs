@@ -96,6 +96,19 @@ Deal list
 * **Price tag of deals which have discounted price**: If deal has original price and discounted price, you show discounted price or discount value (how much customers save). For example, if orginal price is $100, discounted price is $40, you can show $40 (discounted price) or $60 (discount value).
 * **Thumbnail width**: The width of deal image in deal list calculated by Bootsrap framework's 12 grid column. You can select one of the 3 options and refresh your front-end deal list until it looks good for you.
 
+Geolocation
+^^^^^^^^^^^
+
+.. image:: ../images/com_cmlivedeal_geolocation.jpg
+
+* **Geolocation service**: The service you use to detect user's location.
+
+  * *Disabled*: Searching for deals which are near user's location is disabled.
+  * *HTML5 Geolocation*: Use Geolocation which is available in HTML5 technology.
+  * *Maxmind*: Use GeoLite2 data created by `MaxMind <http://www.maxmind.com>`_.
+
+* **Search radius from user's location**: The radius in kilometer to search for nearby deals of user. Default is 5 kilometers. This value is used when user searches for deals in his/her location by using the search module.
+
 Currency
 ^^^^^^^^
 
@@ -127,6 +140,7 @@ Merchant
 * **Membership component integration**: To enable membership integration, select a membership Joomla! component to integrate with. Membership Plans menu item will be available in the component's menu for you to create and configure your membership plans.
 * **Membership upgrade form**: The menu item for upgrading membership. The link to this menu item is displayed in merchant's deal management page when merchant reaches his/her limit of created deal quantity. This option is only used if membership integration is enabled.
 * **New coupon notification**: Send email to merchant when there is new coupon captured.
+* **Merchant detail page**: Enable merchant detail page where merchant info and merchant's deal list are displayed.
 
 Deal
 ^^^^
@@ -134,9 +148,6 @@ Deal
 .. image:: ../images/com_cmlivedeal_deal.jpg
 
 * **New deal notification**: Send email to administrators when there is a new deal submitted.
-* **Geolocation service**: The service you use to detect user's location.
-* **Search radius from user's location**: The radius in kilometer to search for nearby deals of user. Default is 5 kilometers. This value is used when user searches for deals in his/her location by using the search module.
-* **Location cookie's lifetime**: Detect user's location requires reading the database file and make the server slow. User's location can be stored in cookie and reused later to reduce the file reads from server. With this option you can set how many days this cookie is available. Default value is 7 (days). You can disable storing cookie by using 0 value. You can view :ref:`ref-search` for more information.
 * **Display merchant's photos**: Display the slideshow for merchant's photos in deal's popup.
 * **Auto approve new deals**: If enabled, new deals that are submitted by merchants are approved and published by default. Enable this option if you don't want to manually check and approve/publish every submitted deal.
 * **Merchant can edit published deals**: Allow merchants to edit their own deals after the deals are published and visible to customers.
@@ -154,6 +165,11 @@ Coupon
   * *Latin numeric characters only (from 0 to 9)*: for example, "83061".
   * *Latin alphabetic and numeric*: for example, "F52H2".
 
+* **Coupon format**:
+
+  * *HTML*: Coupon in HTML format (a web page).
+  * *PDF*: Coupon in PDF format. You need to install mPDF library package. Please view :ref:`ref-pdfcoupon` section for more information.
+
 * **QR code's size**: The size of coupon's QR code in pixel.
 * **Guest can get coupon**: Allow guests can capture coupons without registering accounts.
 * **Limit coupon quantity**: Enable this option to give administrators and merchants ability to set and change coupon quantity for every deal. If this option is disabled, coupon quantity is unlimited.
@@ -167,11 +183,11 @@ On the left side there are tabs for user groups. On the right side, we have the 
 
 You select your merchant group and configure the following permissions:
 
-* **Configure**: Denied
-* **Access Administration Interface**: Denied
+* **Configure ACL & Options**: Not Allowed
+* **Access Administration Interface**: Not Allowed
 * **Create**: Allowed
 * **Delete**: Allowed
-* **Edit**: Denied
+* **Edit**: Not Allowed
 * **Edit State**: Allowed
 * **Edit Own**: Allowed
 
@@ -239,65 +255,3 @@ After saving the plugin, you receive the message "Plugin successfully saved".
 You can visit the page for merchant registration in your front-end to check if the merchant's profile fields are displayed there. The page could look like the following screenshot.
 
 .. image:: ../images/plg_user_cmldmerchant_frontend.jpg
-
-.. _ref-mod_cmlivedeal_search:
-
-CM Live Deal Search module
------------------------------
-
-To configure your Search module, you go to Extensions -> Module Manager.
-
-.. image:: ../images/mod_cmlivedeal_search_menu.jpg
-
-Joomla! creates a new module for you automatically after you install the package of CM Live Deal. You can see CM Live Deal - Search module in your module list.
-
-.. image:: ../images/mod_cmlivedeal_search_list.jpg
-
-Click on the module name to edit its settings. You can give the module a new name by modifying "Title" field. In the "Module" tab, you set "Status" to "Published" and select the position you want to put this module in "Position" option.
-
-.. image:: ../images/mod_cmlivedeal_search_tab_module.jpg
-
-In "Options" tab, you can configure the main settings of the module.
-
-.. image:: ../images/mod_cmlivedeal_search_tab_options.jpg
-
-* **Display**: How search form is displayed, there are 3 styles, "Inline", "Horizontal", "Vertical". You can see how search form looks like in these styles in the screenshot below.
-* **Keyword field's CSS**: Custom CSS classes for keyword input field.
-* **Category list's CSS**: Custom CSS classes for category dropdown list.
-* **City list's CSS**: Custom CSS classes for city dropdown list.
-* **Search button's CSS**: Custom CSS classes for search button.
-* **Clear button's CSS**: Custom CSS classes for clear button.
-* **Display Clear button**: Display or hide clear button.
-* **Button's label**:
-
-  * *Use icon*: Use only icons for search and clear buttons.
-  * *Use text*: Use only text for search and clear buttons.
-  * *Use icon and text*: Use both icon and text for search and clear buttons.
-
-CSS fields are useful if you want to customize the element of search form to match your template's style. This requires your skills in HTML and CSS.
-
-In "Menu Assignment" tab, you configure what pages the module is displayed on.
-
-.. image:: ../images/mod_cmlivedeal_search_menu_assignment.jpg
-
-After adjusting the settings, you can save the module and then you will receive "Module successfully saved" message. If you change the module's name, you can see its name is updated in the module list.
-
-.. image:: ../images/mod_cmlivedeal_search_saved.jpg
-
-You can check on your front-end to see if the module is displayed properly. The below screenshot is how the inline search form is displayed in "banner" positon of Joomla!'s' default Protostar template.
-
-.. image:: ../images/mod_cmlivedeal_search_frontend.jpg
-
-**Examples** (the settings on the left side, the result on the right side)
-
-Example of how inline search form is displayed. The Clear button is displayed and the buttons have only icons. The fields are customized by using "input-medium" class of Bootstrap.
-
-.. image:: ../images/mod_cmlivedeal_search_inline.jpg
-
-Example of how horizontal search form is displayed. The Clear button is not displayed and the Search button has only text. The fields are customized by using "input-medium" class of Bootstrap.
-
-.. image:: ../images/mod_cmlivedeal_search_horizontal.jpg
-
-Example of how vertical search form is displayed. The Clear button is displayed and is customized by "btn-warning" class of Boostrap. The Search button is customized by "btn-success" class of Bootstrap. Icon and text are both used in the buttons. The fields are customized by using "input-medium" class of Bootstrap.
-
-.. image:: ../images/mod_cmlivedeal_search_vertical.jpg

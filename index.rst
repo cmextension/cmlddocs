@@ -23,6 +23,12 @@ This documentation gives you instruction how to install and setup CM Live Deal o
    pages/membership
    pages/images
    pages/userstats
-   pages/searchdeals
+   pages/searchmodule
+   pages/merchantsmodule
+   pages/categoriesmodule
+   pages/citiesmodule
+   pages/friendlyurl
+   pages/hiddenmenuitem
    pages/tools
+   pages/pdfcoupon
    pages/translation

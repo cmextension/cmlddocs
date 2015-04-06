@@ -23,7 +23,9 @@ If the installation is successful, you will receive the message "Installing pack
 
 .. image:: ../images/installation_success.jpg
 
-Now the component CM Live Deal, the plugin CMLD Merchant and the module CM Live Deal Search are installed on your site. You can now start using them.
+Now the component CM Live Deal, its plugins and modules are installed on your site. You can now start using them.
+
+If you want to support PDF coupon, you also need to install mPDF library package. You can view :ref:`ref-pdfcoupon` section for more information.
 
 Upgrade
 -------
@@ -31,3 +33,5 @@ Upgrade
 To upgrade CM Live Deal, you just need to install the package of the new version.
 
 If you upgrade from a version which is older than 1.2.0, you need to run "Deal alias generator" tool after upgrade. You can view :ref:`ref-tools` section for more information.
+
+If you upgrade from a version which is older than 1.5.0, you need to run "City alias generator" tool after upgrade. You can view :ref:`ref-tools` section for more information.

@@ -22,6 +22,11 @@ After enabling the integration by selecting a membership. Membership Plans item 
 
 .. image:: ../images/com_cmlivedeal_dashboard_membership.jpg
 
+Plugins
+-------
+
+If you integrate with Membership Pro component, you will need to enable "Membership Pro - CM Live Deal integration" plugin which is automatically installed when you install CM Live Deal package. There is no configuration needed for this plugin.
+
 Integration
 -----------
 

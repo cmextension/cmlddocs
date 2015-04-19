@@ -1,3 +1,5 @@
+.. _ref-membership:
+
 ======================
 Membership integration
 ======================
@@ -75,3 +77,23 @@ Deal's length
 When merchant submits a new deal, administrator will review and approve the deal. The deal's starting date is only counted by the time when administrator approves the deal, not by the time merchant submits the deal.
 
 For example, if merchant submits a deal at January 01, 2015 01:00:00, 12 hours later administrator approves the deal, then the deal's starting date is January 01, 2015 13:00:00. If the deal's length is 1 day then it will be unpublished at January 02, 2015 13:00:00.
+
+Merchant profile
+----------------
+
+When merchant subscribes for his/her membership, the membership component asks merchant for basic information in the subscription form, you can get this information and put into merchant's profile.
+
+If merchant renews his/her membership, the data in CMLiveDeal profile will not be modified unless it is empty, for example if merchant deletes the phone number in CMLiveDeal profile, he/she provides the phone number when renews the membership, then this new phone number will be automatically updated in CMLiveDeal profile and it will be displayed in the deals of this merchant.
+
+Below is the instruction for setting this up in membership component.
+
+Membership Pro
+^^^^^^^^^^^^^^
+
+In Custom Fields section, you edit/create your fields. The first column "Name" contains the required information you need to put into CMLiveDeal's configuration.
+
+.. image:: ../images/com_osmembership_field_list.jpg
+
+Go to "Merchant" tab in CMLiveDeal's configuration, set "Use subscriber's profile as merchant's profile" to "Enabled", enter the field name you have in the column "Name" in Membership Pro's Custom Fields section into the fields at the bottom of the page.
+
+.. image:: ../images/com_cmlivedeal_membership_profile.jpg

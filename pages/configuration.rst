@@ -141,6 +141,7 @@ Merchant
 * **Membership upgrade form**: The menu item for upgrading membership. The link to this menu item is displayed in merchant's deal management page when merchant reaches his/her limit of created deal quantity. This option is only used if membership integration is enabled.
 * **New coupon notification**: Send email to merchant when there is new coupon captured.
 * **Merchant detail page**: Enable merchant detail page where merchant info and merchant's deal list are displayed.
+* **Use subscriber's profile as merchant's profile**: Enable copying subscriber's profile from the membership component to CM Live Deal's merchant profile after merchant subscribes his/her membership, so merchant only enter his/her info once. Please see :ref:`ref-membership` section for more information.
 
 Deal
 ^^^^

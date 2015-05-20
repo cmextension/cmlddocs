@@ -19,6 +19,8 @@ The form to create new city (and to edit existing city) has the following fields
 * **Name**: The city's name.
 * **Radius**: The radius in kilometer to collect deals from the city's position. The deals which are in this radius are considered to belong to this city. After entering your value in this field, you can click somewhere else on the page to update the new value to the Google Maps on the page.
 * **Location**: A Google Maps to select your city's location. You can move the marker to select the location. You can see an circle on the map, this circle's center is the Google Maps marker and the circle's radius is the radius of the "Radius" field, the deals which are in this circle are considered to belong to this city.
+* **Meta description**: Meta description for SEO.
+* **Meta keywords**: Meta keywords for SEO.
 * **Status**: Status of the city.
 * **Created Date**: The date the city is created.
 * **Created by**: The person who creates the city.

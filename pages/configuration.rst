@@ -143,10 +143,17 @@ Merchant
 * **Merchant detail page**: Enable merchant detail page where merchant info and merchant's deal list are displayed.
 * **Use subscriber's profile as merchant's profile**: Enable copying subscriber's profile from the membership component to CM Live Deal's merchant profile after merchant subscribes his/her membership, so merchant only enter his/her info once. Please see :ref:`ref-membership` section for more information.
 
+.. _ref-configuration-deal:
+
 Deal
 ^^^^
 
 .. image:: ../images/com_cmlivedeal_deal.jpg
+
+* **Deal detail**: Enable/disable deal detail page.
+
+  * As popup in deal list: Deal detail page is disabled. When you click a deal in deal list, a popup (modal) appears and displays deal's info. You can close the popup and view another deal without leaving the deal list.
+  * As separate page: Deal detail page is enabled. When you click a deal in deal list, you are taken to another page.
 
 * **New deal notification**: Send email to administrators when there is a new deal submitted.
 * **Display merchant's photos**: Display the slideshow for merchant's photos in deal's popup.

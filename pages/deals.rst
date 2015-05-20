@@ -41,6 +41,8 @@ If you enable "Limit coupon quantity" in the component's configuration, "Coupon 
 
 Other fields in the form:
 
+* **Meta description**: Meta description for SEO. Only administrator can see this field in back-end.
+* **Meta keywords**: Meta keywords for SEO. Only administrator can see this field in back-end.
 * **Impressions**: The number of times this deal is displayed in deal list.
 * **Clicks**: The number of times users click this deal to view its detail.
 * **Created Date**: The date the deal is created.
@@ -124,3 +126,28 @@ Deal list is where users browse and find the deals that they are interested in.
 In your back-end, you create a new menu item for "Deal List" page. You can check the menu item in front-end, the deal list is similar to the below screenshot.
 
 .. image:: ../images/deal_frontend_list.jpg
+
+Deal detail
+-----------
+
+There are 2 styles of deal detail which you can configure in :ref:`ref-configuration-deal` section in Configuration:
+
+* Popup:
+
+.. image:: ../images/deal_detail_popup.jpg
+
+* Separate detail page:
+
+.. image:: ../images/deal_detail_page.jpg
+
+There is a menu item for deal detail page but it is optional. If you create this menu item (as a hidden menu item), its alias will be used for deal detail page. But if this menu item doesn't exist, your deal list's alias will be used instead.
+
+For example, if your deal list's URL is www.yoursite.com/deal-list and you don't create menu item for deal detail page, your deal URL could look like:
+
+www.yoursite.com/deal-list/1-50-off-cocktails-and-2-tacos-at-rocks-lakeview-s-tuesday-specials
+
+But if you create menu item for deal detail page with alias "deal", your deal URL would be
+
+www.yoursite.com/deal/1-50-off-cocktails-and-2-tacos-at-rocks-lakeview-s-tuesday-specials
+
+The benefit of creating a separate menu item for deal detail page is you can assign different modules to detail page or not showing specific modules in deal detail page. By using deal list's menu item, all modules in deal list page will be displayed in deal detail page.

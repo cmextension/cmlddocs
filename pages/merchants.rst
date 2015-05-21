@@ -61,6 +61,10 @@ Access the new menu item in front-end, login with a merchant account, you can se
 
 As an administrator, you can always edit any user's profile in User Manager.
 
+.. image:: ../images/merchant_backend_form.jpg
+
+Administrator can add and edit meta description and meta keywords for merchant, merchant can't do this by himself in front-end. Meta description and meta keywords are used in merchant's detail page for SEO purpose.
+
 Manage merchants
 ----------------
 
@@ -74,6 +78,6 @@ On the toolbar, you click "Merchants" item to access the merchant map.
 
 With this Google Maps, you can see the cities and the merchants in every city. Every city has a circle, if the merchant is in the circle of a city that means the merchant's deals can be listed in the deal list when users search for deals in that city.
 
-If there is any merchant that is not in the circle of any city, you should create a new city for that merchant, or extend the radius of the nearest city, unless the deals of these merchants are not searchable.
+If there is any merchant that is not in the circle of any city, you should create a new city for that merchant, or extend the radius of the nearest city, otherwise the deals of these merchants are not searchable.
 
 .. image:: ../images/merchant_map.jpg

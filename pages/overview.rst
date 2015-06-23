@@ -12,7 +12,7 @@ Technical Requirements
 ----------------------
 
 * **Joomla! 3.x.x**: CM Live Deal is **NOT** compatible with Joomla! 1.x.x or 2.x.x, only Joomla! 3.x.x is supported. Please check `Joomla! 3's Technical Requirements <http://www.joomla.org/technical-requirements.html>`_ for more information.
-* **Bootstrap 2**: CM Live Deal is **NOT** compatible with Bootstrap 3. Bootstrap 2 is available by default in Joomla! 3.x.x. Bootstrap 2 must be loaded on your site by Joomla! or by your template.
+* **Bootstrap 2 or Bootstrap 3**: CM Live Deal is compatible with both Bootstrap 2 and Bootstrap 3.
 
 Features
 --------

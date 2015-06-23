@@ -76,6 +76,8 @@ Layout
 
 .. image:: ../images/com_cmlivedeal_layout.jpg
 
+* **Layout**: The Bootstrap version which CMLiveDeal uses. Select the Bootstrap version which your template supports.
+* **FontAwesome**: CMLiveDeal needs FontAwesome for icons. If your template or other extensions (like plugins) already loads FontAwesome then you should set this option to "Disabled" to not load FontAwesome from CMLiveDeal.
 * **Image's width (management)**: Image thumbnail's width (pixel) in deal list table (in back-end and in merchant's management area in front-end). Default value is 50px.
 * **Map's height**: The height of Google's maps, used in both front-end and back-end. Default value is 400px.
 * **Map's zoom level**: Default Google Maps's zoom level. Default value is 15.
@@ -88,13 +90,14 @@ Deal list
 
 .. image:: ../images/com_cmlivedeal_deal_list.jpg
 
+* **Deal list's column quantity**: The number of columns in deal list.
+* **Thumbnail width**: The width of deal image in deal list calculated by Bootsrap framework's 12 grid column. You can select one of the 3 options and refresh your front-end deal list until it looks good for you. This option is only used if you only have 1 column in your deal list.
 * **Default pagination limit**: The quantity of deals that are displayed in deal list by default.
 * **Show pagination limit option**: Show an option to select the quantity of deals that are displayed in 1 page in deal list.
 * **Show pagination sorting option**: Show an option to select how deals in deal list are sorted.
 * **Show price tag**: Show price tag at the top left corner of every deal in deal list. This price tag contains discounted price, discounted value or discount percent.
 * **Show original and discounted prices**: Show original price and discounted price of deal of it has these prices.
 * **Price tag of deals which have discounted price**: If deal has original price and discounted price, you show discounted price or discount value (how much customers save). For example, if orginal price is $100, discounted price is $40, you can show $40 (discounted price) or $60 (discount value).
-* **Thumbnail width**: The width of deal image in deal list calculated by Bootsrap framework's 12 grid column. You can select one of the 3 options and refresh your front-end deal list until it looks good for you.
 
 Geolocation
 ^^^^^^^^^^^

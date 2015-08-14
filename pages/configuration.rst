@@ -123,6 +123,7 @@ Currency
 * **Decimal point**: The character which is used as decimal point.
 * **Thousands separator**: The character which is used as thousands separator.
 
+.. _ref-configuration-merchant:
 
 Merchant
 ^^^^^^^^
@@ -184,6 +185,7 @@ Coupon
 * **QR code's size**: The size of coupon's QR code in pixel.
 * **Guest can get coupon**: Allow guests can capture coupons without registering accounts.
 * **Limit coupon quantity**: Enable this option to give administrators and merchants ability to set and change coupon quantity for every deal. If this option is disabled, coupon quantity is unlimited.
+* **Limit 1 coupon per registered user**: Enable this option if you only allow a registered user to get 1 coupon for 1 deal. Disable this option if you want to allow registered users to get unlimited coupon for every deal.
 
 Permissions
 ^^^^^^^^^^^

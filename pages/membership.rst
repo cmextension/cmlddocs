@@ -18,7 +18,7 @@ When the limitations are reached, if merchant wants to create more deals or exte
 Configuration
 -------------
 
-You can enable this integration in :ref:`Configuration <ref-merchant-registration-menu-item>`. At the present time only `Membership Pro <http://extensions.joomla.org/extensions/e-commerce/membership-a-subscriptions/20725>`_ component is supported. More membership components will be integrated in future.
+You can enable this integration in :ref:`Configuration <ref-configuration-merchant>`. At the present time CMLiveDeal has integrations with `Membership Pro <http://extensions.joomla.org/extensions/e-commerce/membership-a-subscriptions/20725>`_ and `Akeeba Subscription <https://www.akeebabackup.com/>`_ components. More membership components will be integrated in future.
 
 After enabling the integration by selecting a membership. Membership Plans item is displayed in the component's menu.
 
@@ -85,7 +85,7 @@ When merchant subscribes for his/her membership, the membership component asks m
 
 If merchant renews his/her membership, the data in CMLiveDeal profile will not be modified unless it is empty, for example if merchant deletes the phone number in CMLiveDeal profile, he/she provides the phone number when renews the membership, then this new phone number will be automatically updated in CMLiveDeal profile and it will be displayed in the deals of this merchant.
 
-Below is the instruction for setting this up in membership component.
+Below is the instruction for setting this up in membership components.
 
 Membership Pro
 ^^^^^^^^^^^^^^
@@ -97,3 +97,14 @@ In Custom Fields section, you edit/create your fields. The first column "Name" c
 Go to "Merchant" tab in CMLiveDeal's configuration, set "Use subscriber's profile as merchant's profile" to "Enabled", enter the field name you have in the column "Name" in Membership Pro's Custom Fields section into the fields at the bottom of the page.
 
 .. image:: ../images/com_cmlivedeal_membership_profile.jpg
+
+Akeeba Subscription
+^^^^^^^^^^^^^^^^^^^
+
+In Akeeba Subscription's Custom Fields, you create the custom fields for website, Facebook, Twitter, Pinterest, Google+, phone and merchant's about info. CMLiveDeal automatically takes Akeeba Subscription's business name and address so you don't need to create fields for merchant's name and address.
+
+.. image:: ../images/com_akeebasubs_field_list.jpg
+
+Go to "Merchant" tab in CMLiveDeal's configuration, set "Use subscriber's profile as merchant's profile" to "Enabled". You enter the aliases (slugs) of the custom fields you create in Akeeba Subscription's Custom Fields, you don't need to enter values for "Field for business name" and "Field for address" fields.
+
+.. image:: ../images/com_cmlivedeal_akeebasubs_profile.jpg

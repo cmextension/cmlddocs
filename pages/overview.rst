@@ -28,7 +28,7 @@ For merchants:
 * Know if user is a trusted customer (user will come to redeem coupon).
 * Know if user is a return customer.
 * Upload photos of their stores, products,... to promote for their businesses.
-* Integrate with membership component, currently only support Membership Pro. Limit how many deals merchant can create, how many days merchant's deals are available on the site.
+* Integrate with membership component, currently only support Membership Pro and Akeeba Subscription. Limit how many deals merchant can create, how many days merchant's deals are available on the site.
 
 For users:
 

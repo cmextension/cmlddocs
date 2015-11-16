@@ -69,7 +69,7 @@ The dashboard is displayed by default.
 
 On the toolbar there is a button "Options", you click this button to configure the component.
 
-On the configuration page, the settings are grouped into 7 tabs: Layout, Deal list, Currency Merchant, Deal, Coupon and Permissions.
+On the configuration page, the settings are grouped into 8 tabs: Layout, Deal list, Currency Merchant, Deal, Coupon, Integrations and Permissions.
 
 Layout
 ^^^^^^
@@ -98,6 +98,8 @@ Deal list
 * **Show price tag**: Show price tag at the top left corner of every deal in deal list. This price tag contains discounted price, discounted value or discount percent.
 * **Show original and discounted prices**: Show original price and discounted price of deal of it has these prices.
 * **Price tag of deals which have discounted price**: If deal has original price and discounted price, you show discounted price or discount value (how much customers save). For example, if orginal price is $100, discounted price is $40, you can show $40 (discounted price) or $60 (discount value).
+* **Show featured deals first**: Show featured deals on the top of deal list.
+* **Show ribbon for featured deals**: Show a ribbon on the top right corner of feature deals.
 
 Geolocation
 ^^^^^^^^^^^
@@ -186,6 +188,13 @@ Coupon
 * **Guest can get coupon**: Allow guests can capture coupons without registering accounts.
 * **Limit coupon quantity**: Enable this option to give administrators and merchants ability to set and change coupon quantity for every deal. If this option is disabled, coupon quantity is unlimited.
 * **Limit 1 coupon per registered user**: Enable this option if you only allow a registered user to get 1 coupon for 1 deal. Disable this option if you want to allow registered users to get unlimited coupon for every deal.
+
+Integrations
+^^^^^^^^^^^^
+
+.. image:: ../images/com_cmlivedeal_integrations.jpg
+
+* **Falang integration**: Enable this option if you use Falang.
 
 Permissions
 ^^^^^^^^^^^

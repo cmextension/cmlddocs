@@ -30,6 +30,7 @@ For merchants:
 * Know if user is a return customer.
 * Upload photos of their stores, products,... to promote for their businesses.
 * Integrate with membership component, currently only support Membership Pro and Akeeba Subscription. Limit how many deals merchant can create, how many days merchant's deals are available on the site.
+* Integrate with Easy Profile: get merchant profile from Easy Profile.
 
 For users:
 

@@ -84,6 +84,7 @@ Layout
 * **Map's default location**: The default location of Google Maps when the map is displayed, used in both front-end and back-end. You can click on the map or move the marker to the location you want.
 * **Date format**: Date format that is used in front-end.
 * **Time format**: Time format that is used in front-end.
+* **Google Maps API key**: If Google requires an API key to use Google Maps, you create a **Browser key** and enter it here. You can find more info about getting an API key `here <https://developers.google.com/maps/documentation/javascript/get-api-key>`_.
 
 Deal list
 ^^^^^^^^^
@@ -147,7 +148,14 @@ Merchant
 * **Membership upgrade form**: The menu item for upgrading membership. The link to this menu item is displayed in merchant's deal management page when merchant reaches his/her limit of created deal quantity. This option is only used if membership integration is enabled.
 * **New coupon notification**: Send email to merchant when there is new coupon captured.
 * **Merchant detail page**: Enable merchant detail page where merchant info and merchant's deal list are displayed.
-* **Use subscriber's profile as merchant's profile**: Enable copying subscriber's profile from the membership component to CM Live Deal's merchant profile after merchant subscribes his/her membership, so merchant only enter his/her info once. Please see :ref:`ref-membership` section for more information.
+* **Get merchant profile from other source**:
+
+  * *Get from the integrated membership component*: Enable copying subscriber's profile from the membership component to CM Live Deal's merchant profile after merchant subscribes his/her membership, so merchant only enter his/her info once. Please see :ref:`ref-membership` section for more information.
+  * *Get from Easy Profile component*: Merchant profile is retrieved from Easy Profile component directly. If you enable this, you don't need to use CM Live Deal's merchant profile plugin any more, merchant edit his profile in Easy Profile component.
+
+If you get merchant profile from another component, you enter the aliases of the fields in that component into the fields at the bottom of the page.
+
+Field for location is only supported for Easy Profile because in Easy Profile we can create a Google Maps field which we can use to select a location.
 
 .. _ref-configuration-deal:
 

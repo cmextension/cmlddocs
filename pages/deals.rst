@@ -109,6 +109,8 @@ The form has the following fields:
 
 .. image:: ../images/deal_frontend_form.jpg
 
+To insert merchant's images into deal's description and deal's fine print, you need to enable the plugin "Button - CMLiveDeal Image".
+
 You will receive message "Item successfully submitted." if deal is saved successfully.
 
 .. image:: ../images/deal_frontend_merchant_list_saved.jpg

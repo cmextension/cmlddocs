@@ -26,6 +26,7 @@ This documentation gives you instruction how to install and setup CM Live Deal o
    pages/searchmodule
    pages/merchantsmodule
    pages/categoriesmodule
+   pages/easyprofiledealstabplugin
    pages/citiesmodule
    pages/friendlyurl
    pages/hiddenmenuitem

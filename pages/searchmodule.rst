@@ -92,7 +92,7 @@ On the toolbar, you click "Options" button.
 
 .. image:: ../images/com_cmlivedeal_dashboard.jpg
 
-Go to "Deal" tab, you select the Geolocatin service, set the radius (in kilometer) to search for nearby deals from user's location and set the cookie lifetime.
+Go to "Deal" tab, you select the Geolocatin service, set the radius (in kilometer) to search for nearby deals from user's location
 
 .. image:: ../images/com_cmlivedeal_geolocation.jpg
 
